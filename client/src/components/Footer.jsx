@@ -97,7 +97,7 @@ const Footer = () => {
         </div>
         <p className="pt-4 text-center text-xs md:text-sm pb-1">
           Copyright 2025 ©{" "}
-          <a href="https://prebuiltui.com">Intellicore.Ai</a> - All Right
+          <a href="https://prebuiltui.com">Intellicore Ai</a> - All Right
           Reserved.
         </p>
       </footer>
