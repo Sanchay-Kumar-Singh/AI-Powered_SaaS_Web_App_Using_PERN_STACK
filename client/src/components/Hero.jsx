@@ -8,7 +8,6 @@ const Hero = () => {
 
   return (
     <>
-      {/* ================= HERO ================= */}
       <div className="px-4 sm:px-20 xl:p-32 relative flex flex-col w-full justify-center bg-[url(/gradientBackground.png)] bg-cover bg-no-repeat min-h-screen">
         
         {/* Heading */}

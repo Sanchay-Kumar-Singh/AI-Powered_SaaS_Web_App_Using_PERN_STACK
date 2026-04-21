@@ -21,16 +21,19 @@ const ToolList = () => {
 
   return (
     <div className="overflow-hidden w-full relative select-none py-8 -mt-38">
+      
       {/* Left Fade */}
       <div className="absolute left-0 top-0 h-full w-20 z-10 pointer-events-none bg-gradient-to-r from-white to-transparent" />
 
       {/* Marquee */}
       <div className="marquee">
-        <div className="marquee-track">
+        <div className="marquee-track flex gap-4">
           {[...tools, ...tools].map((item, index) => (
             <div
               key={index}
-              className={`px-4 py-2 bg-white shadow-md font-medium text-[1.05rem] rounded-xl border border-[#6674e0]/20 hover:shadow-lg hover:scale-105 transition cursor-pointer whitespace-nowrap ${textColors[index % textColors.length]}`}
+              className={`px-4 py-2 bg-white shadow-md font-medium text-[1.05rem] rounded-xl border border-[#6674e0]/20 hover:shadow-lg hover:scale-105 transition cursor-pointer whitespace-nowrap ${
+                textColors[index % textColors.length]
+              }`}
             >
               {item}
             </div>

@@ -1,6 +1,6 @@
 # 🚀 QuickAI – Full Stack AI SaaS Platform
 
-QuickAI is a production-ready AI SaaS platform offering powerful tools.
+Intellicore Ai is a production-ready AI SaaS platform offering powerful tools.
 
 Built with modern technologies, secure authentication, cloud storage, and scalable APIs.
 
@@ -38,7 +38,7 @@ Built with modern technologies, secure authentication, cloud storage, and scalab
 ## 🧑‍💻 Tech Stack
 
 ### Frontend
-- React 19  
+- React.js 
 - Vite  
 - Tailwind CSS  
 - Axios  
@@ -92,7 +92,7 @@ QuickAI/
 - Node.js v18+
 - npm v8+
 - PostgreSQL database
-- OpenAI account
+- Google Gemini account
 - Cloudinary account
 - Clerk account
 
@@ -108,7 +108,7 @@ VITE_API_BASE_URL=http://localhost:5000
 
 ### Server (.env)
 ```
-GEMINI_API_KEY=sAK...
+GEMINI_API_KEY=...
 CLOUDINARY_CLOUD_NAME=...
 CLOUDINARY_API_KEY=...
 CLOUDINARY_API_SECRET=...
@@ -182,5 +182,5 @@ PORT=5000
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Developed By
 **Sanchay Kumar Singh**

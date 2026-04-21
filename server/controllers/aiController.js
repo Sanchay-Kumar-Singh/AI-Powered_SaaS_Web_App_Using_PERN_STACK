@@ -6,14 +6,14 @@ import { v2 as cloudinary } from "cloudinary";
 import fs from "fs";
 import pdf from "pdf-parse/lib/pdf-parse.js";
 
-// ======================================================
+
 // GEMINI CONFIGURATION
-// ======================================================
+
 const ai = new GoogleGenAI({apiKey: process.env.GEMINI_API_KEY})
 
-// ======================================================
+
 // GENERATE ARTICLE
-// ======================================================
+
 export const generateArticle = async (req, res) => {
   try {
     const { userId } = req.auth();
@@ -61,9 +61,9 @@ export const generateArticle = async (req, res) => {
   }
 };
 
-// ======================================================
+
 // GENERATE BLOG TITLE
-// ======================================================
+
 export const generateBlogTitle = async (req, res) => {
   try {
     const { userId } = req.auth();
@@ -111,9 +111,9 @@ export const generateBlogTitle = async (req, res) => {
   }
 };
 
-// ======================================================
+
 // GENERATE IMAGE (CLIPDROP)
-// ======================================================
+
 export const generateImage = async (req, res) => {
   try {
     const { userId } = req.auth();
@@ -159,9 +159,9 @@ export const generateImage = async (req, res) => {
   }
 };
 
-// ======================================================
+
 // REMOVE IMAGE BACKGROUND
-// ======================================================
+
 export const removeImageBackground = async (req, res) => {
   try {
     const { userId } = req.auth();
@@ -194,9 +194,9 @@ export const removeImageBackground = async (req, res) => {
   }
 };
 
-// ======================================================
+
 // REMOVE OBJECT FROM IMAGE
-// ======================================================
+
 export const removeImageObject = async (req, res) => {
   try {
     const { userId } = req.auth();
@@ -228,9 +228,9 @@ export const removeImageObject = async (req, res) => {
   }
 };
 
-// ======================================================
+
 // RESUME REVIEW
-// ======================================================
+
 export const resumeReview = async (req, res) => {
   try {
     const { userId } = req.auth();

@@ -27,7 +27,7 @@ const Footer = () => {
       const result = await response.json();
       if (result.success) {
         toast.success("✅ Thank you for subscribing!");
-        setEmail(""); // clear input
+        setEmail(""); 
       } else {
         toast.error("❌ Failed to subscribe. Try again.");
       }
