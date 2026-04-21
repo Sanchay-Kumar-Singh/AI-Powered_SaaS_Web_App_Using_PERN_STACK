@@ -45,7 +45,7 @@ export const assets = {
 
 export const AiToolsData = [
   {
-    title: "AI Article Writer",
+    title: "AI Write Article",
     description:
       "Generate high-quality, engaging articles on any topic with our AI writing technology.",
     Icon: SquarePen,
@@ -53,7 +53,7 @@ export const AiToolsData = [
     path: "/ai/write-article",
   },
   {
-    title: "Blog Title Generator",
+    title: "AI Blog Title Generator",
     description:
       "Find the perfect, catchy title for your blog posts with our AI-powered generator.",
     Icon: Hash,
@@ -69,7 +69,7 @@ export const AiToolsData = [
     path: "/ai/generate-images",
   },
   {
-    title: "Background Removal",
+    title: "AI Background Removal",
     description:
       "Effortlessly remove backgrounds from your images with our AI-driven tool.",
     Icon: Eraser,
@@ -77,7 +77,7 @@ export const AiToolsData = [
     path: "/ai/remove-background",
   },
   {
-    title: "Object Removal",
+    title: "AI Object Removal",
     description:
       "Remove unwanted objects from your images seamlessly with our AI object removal tool.",
     Icon: Scissors,
@@ -85,7 +85,7 @@ export const AiToolsData = [
     path: "/ai/remove-object",
   },
   {
-    title: "Resume Reviewer",
+    title: "AI Resume Analyzer",
     description:
       "Get your resume reviewed by AI to improve your chances of landing your dream job.",
     Icon: FileText,
