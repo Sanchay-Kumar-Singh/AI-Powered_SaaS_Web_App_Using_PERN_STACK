@@ -14,12 +14,12 @@ import { NavLink } from "react-router-dom";
 
 const navItems = [
   { to: "/ai", label: "Dashboard", Icon: House },
-  { to: "/ai/write-article", label: "Write Article", Icon: SquarePen },
-  { to: "/ai/blog-titles", label: "Blog Titles", Icon: Hash },
-  { to: "/ai/generate-images", label: "Generate Images", Icon: Image },
-  { to: "/ai/remove-background", label: "Remove Background", Icon: Eraser },
-  { to: "/ai/remove-object", label: "Remove Object", Icon: Scissors },
-  { to: "/ai/review-resume", label: "Review Resume", Icon: FileText },
+  { to: "/ai/write-article", label: "AI Write Article", Icon: SquarePen },
+  { to: "/ai/blog-titles", label: "AI Blog Titles", Icon: Hash },
+  { to: "/ai/generate-images", label: "AI Generate Images", Icon: Image },
+  { to: "/ai/remove-background", label: "AI Remove Background", Icon: Eraser },
+  { to: "/ai/remove-object", label: "AI Remove Object", Icon: Scissors },
+  { to: "/ai/review-resume", label: "AI Resume Analyzer", Icon: FileText },
   { to: "/ai/community", label: "Community", Icon: Users },
 ];
 
